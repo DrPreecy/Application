@@ -52,14 +52,45 @@ Not yet selected:
 
 G-001 was answered under D-005: process quality, structured evaluation, traceability, visible steps and targeted intervention are part of value. Equal document quality is not assumed.
 
-The user authorized private historical inputs, then clarified that these supply data for **new agent-authored application/CV outputs**. EXP-008 now produces that new package; EXP-004–007 are supporting inspection/control experiments, not substitutes for creation.
+The user authorized private historical inputs and clarified that they were to serve as data for an independently agent-authored application/CV package.
 
-- Two new native one-page documents and editable sources created privately; no personal files in GitHub.
-- Actual local edit: zero changed pixels outside the intended heading; photo bytes and reference inputs unchanged.
-- 14 coupled synthetic checks passed; original 11 checks retained.
-- Real extraction disagreement and official-source inconsistency recorded with scope-aware treatment.
-- All H0–H8 remain TESTING; none PASS. No production runtime, independent reviewer or sustained quality claim.
+EXP-004–007 produced useful supporting technical/research evidence. EXP-008 produced new native application/CV artifacts and a narrow scoped-edit check.
 
-**Current gate G-003:** user reviews the actual new drafts for authentic voice and document/photo presentation. Accepted parts can then be locked and corrections tested locally. The previous proposed sentence-only G-002 is superseded. Missing exact rating rules block exact scoring only.
+### G-003 user review
 
-See `docs/validation/experiments/reference-case-validation.md` for evidence and retest conditions. Walking skeleton remains HOLD; no broad implementation, final stack or runtime PII-storage choice.
+**G-003 FAILED.**
+
+The user rejected the generated package on substantive quality grounds:
+
+- the application letter was judged too derivative of the accepted historical final application rather than independently derived from the intended process;
+- the CV was judged visually and editorially inadequate, with weak information hierarchy/design and poor photo integration;
+- technical PDF validity did not compensate for the missing design/process quality.
+
+This failure is preserved as validation evidence, not treated as a request to cosmetically repair the two PDFs.
+
+New failure classes F-026–F-030 cover gold-reference leakage, process bypass, design collapse, reference-as-template misuse and output-only optimization.
+
+See `docs/validation/experiments/g003-failure-and-retest.md` for the corrected retest protocol.
+
+### Evidence still retained from EXP-008
+
+- Native editable document/PDF generation is technically feasible in this environment.
+- One local heading edit was isolated without unrelated pixel/media changes.
+- Reference inputs remained unchanged.
+- These facts are narrow technical evidence only and do not establish successful application/CV quality.
+
+### Hypothesis state
+
+- All H0–H8 remain TESTING; none PASS.
+- H4 now has negative user evidence for the EXP-008 package.
+- H5 has narrow technical evidence but negative design-quality evidence for the candidate CV.
+- H6 retains narrow scoped-edit evidence.
+- No production runtime, independent reviewer or sustained quality claim exists.
+
+## Current gate
+
+Walking Skeleton remains **HOLD**.
+
+The next private reference-case run must use the retest protocol: separate neutral data/process/voice evidence from hidden gold artifacts, preserve the mandatory intermediate chain, perform real design exploration before rendering, and reintroduce final historical artifacts only after the candidate package is frozen for comparison.
+
+While private Work/Astra quota is unavailable, safe repository work may continue; do not launch a compromised substitute generation run or choose a final stack.
