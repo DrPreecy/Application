@@ -58,6 +58,8 @@ Initial validation executed; see `docs/validation/experiments/initial-validation
 - All F-001–F-022 now have explicit procedures and honest execution status in `docs/quality/validation-procedures.md`.
 - H3/H4/H5/H7 remain UNKNOWN. No hypothesis is PASS.
 
-**Current user decision gate G-001:** establish what residual coordination burden makes GitHub + agents insufficient, even at equal document quality. This personal value criterion cannot be inferred by an agent. After the answer, run one authorized high-fidelity case with personal artifacts outside GitHub; measure the relevant burden and quality failures.
+**G-001 answered by the user (2026-09-09):** the equal-quality assumption was rejected. Value includes consistently enforced quality across many connected subprocesses, structured processing/sorting/evaluation of data, traceability, visualized intermediate steps and targeted user intervention. These are user-owned goals, not proof that a custom implementation achieves them. See D-005 and the G-001 resolution in the experiment report.
+
+**Next validation:** evaluate coupled scenarios against these process criteria, including failure detection, affected dependencies, visible state and intervention. Measure quality and recoverability alongside coordination burden; do not reduce H0 to two attractive final documents or three prompt handoffs. Existing rating rules are referenced by the user but not specified in this repository; exact factors/weights remain unknown and must not be invented. Their absence blocks exact scoring tests only.
 
 Walking-skeleton gate remains HOLD pending evidence. No broad implementation, stack or runtime PII decision has been made.
