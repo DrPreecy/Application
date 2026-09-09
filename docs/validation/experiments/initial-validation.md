@@ -92,3 +92,24 @@ Concrete contrast for the test case: GitHub + agent can preserve the table, but 
 Proposed measurement after the answer: count those interventions and their time, retain quality failures separately, and record user judgment after one full case. Do not invent a numeric threshold or claim user acceptance from model preference.
 
 Next executable work after this decision: establish that H0 success criterion, select a user-authorized reference case outside GitHub, then execute the native-document/voice/workflow trial. Synthetic cases cannot settle user value or authenticity. More infrastructure now would evade the gate rather than resolve it.
+
+## G-001 resolution — user response, 2026-09-09
+
+**Status:** Answered. The preceding question/history is retained, but its equal-quality premise and narrow coordination-only framing are superseded by D-005.
+
+The user describes a specialized process with substantial internal steps, interconnected variables, structured data processing and rating/sorting. They report unreliable prompt-driven execution and insufficient ability to inspect/intervene. Visible intermediate steps and repeatable, traceable quality are explicit goals. This is preference/experience evidence, not a pass for any implementation.
+
+### Corrected validation matrix (proposed test design)
+
+| User criterion | Coupled test scenario | Observable evidence to collect |
+|---|---|---|
+| Consistent process quality | A high-fit case has missing eligibility data and a weak research claim | Claim cannot silently enter approved text; only dependent work pauses; fit remains separate |
+| Structured evaluation | Several factors conflict and one source changes | Preserve inputs, source/version and the existing rating rule; affected assessment changes are explainable; missing weight stays unknown |
+| Traceable connections | An applicant fact changes after positioning and documents were approved | Show which conclusions and document parts depend on it; flag those for review; retain unrelated approved material |
+| Visible intermediate steps | Research complete, assessment uncertain, CV prepared, application needs review | User can inspect the actual intermediate work, its basis, uncertainty and next action; a final green/red badge is insufficient |
+| Targeted intervention | User corrects one source interpretation while other work is ready | Correction applies to its dependent results; no unrelated rewrite; before/after evidence and user review remain available |
+| Recovery and consistency | Interrupt, retry, then resume after an upstream correction | No duplicate authoritative result; stale results do not appear current; user sees what happened |
+
+These are proposed combined tests grounded in accepted behavior and D-005, not results. EXP-001 supplies only narrow dependency-set evidence. The missing end-to-end controls, ratings, UI and document production remain untested. More synthetic passes cannot demonstrate user authenticity or sustained quality.
+
+**Next work:** use this matrix for a coupled validation scenario, keeping exact rating tests dependent on the actual existing rules. Do not invent their factors or weights. Any UI used for evaluation is provisional; no final design approval is implied. Evaluate existing tools and a minimal custom approach against the same criteria without presuming either can maintain quality.
