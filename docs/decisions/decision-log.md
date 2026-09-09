@@ -53,3 +53,20 @@ G-001 is answered; no need to ask the user to justify the same preference again.
 ## Validation scope clarification — 2026-09-09
 
 Current user instruction authorizes the supplied historical case as private data for generating the agent's own application/CV. Auditing the supplied final documents alone is insufficient. EXP-008 follows this clarification. No reference file is overwritten and no personal inputs/outputs are committed. G-003 is review of the new drafts; the proposed G-002 sentence-only gate is superseded. No architecture decision or walking-skeleton approval is added.
+
+## D-006 — The product must create a quality advantage, not only automate labor
+**Status:** Accepted user direction, 2026-09-09 (second controlled reference run)
+
+The system competes not only with manual effort but with a much simpler baseline: a reusable Word/application template plus manual employer-specific edits. A custom Application Operations System is not justified merely because it can reproduce the same generic output automatically.
+
+Validation must therefore test whether the system creates a material quality advantage in addition to reducing work. The relevant advantage includes:
+
+- richer and more complete use of the applicant profile;
+- preservation of subtle/high-value motivation and reasoning signals rather than compressing them away;
+- genuinely employer-specific argumentation whose logic changes with the employer/opportunity;
+- coherent narrative architecture rather than a sequence of broadly reusable paragraphs;
+- information-design decisions whose placement/hierarchy can be explained by content roles and reading needs;
+- traceable reasons for major document-design choices rather than arbitrary visual composition;
+- output quality that is meaningfully better than, or at minimum clearly more reliable than, a simple template-and-replace workflow.
+
+A technically valid or visually acceptable document is insufficient if the user is not better off than with a conventional template. Future H0 evaluation must include a template-baseline comparison, not only automation/process metrics.
