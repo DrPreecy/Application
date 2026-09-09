@@ -29,7 +29,6 @@ See [experiment report](experiments/initial-validation.md) and [procedures](../q
 - H0/H8 TESTING: partial synthetic repo/agent rehearsal recorded; G-001 subsequently answered in D-005. No high-fidelity trial or usability pass.
 - H1 TESTING: identity counterexamples compared manually; no schema/aggregate choice.
 - H2/H6 TESTING: 11 synthetic graph checks passed; eight historical-mutant rejections. Correct graph edges were supplied manually; no production proof.
-- H3/H4/H5/H7 remain UNKNOWN: no extraction evaluation, authentic-voice trial, native-document trial or durable runtime test executed.
 - Hypothesis wording is unchanged: evidence does not justify replacing the questions. PASS is withheld for all hypotheses.
 
 ## User correction after G-001
@@ -38,4 +37,15 @@ H0 measures operational capability and sustained quality, not merely coordinatio
 
 ## Reference-data production trial — 2026-09-09
 
-[EXP-004–008](experiments/reference-case-validation.md) uses authorized private inputs. The user clarified that the agent must generate its own package; EXP-008 does so. All hypotheses are now TESTING, none PASS. H3 has manual live-source reconciliation; H4 has a newly authored letter pending user voice review; H5 has new native exports and real extraction checks; H7 has a limited temporary-file retry experiment, not concurrent production safety. H6 includes a real local document edit with zero pixel changes outside its heading band. G-003 awaits user review of the new drafts; G-002 is superseded.
+[EXP-004–008](experiments/reference-case-validation.md) used authorized private inputs. EXP-008 produced new native documents and narrow technical evidence. The subsequent user gate G-003 rejected the package.
+
+### G-003 evidence impact
+
+- **H4 remains TESTING with negative evidence:** the generated letter was judged too derivative of the accepted historical final application. The test was contaminated by gold-reference exposure and did not demonstrate independent voice/argument generation.
+- **H5 remains TESTING with mixed evidence:** native/editable PDF generation and extraction checks worked technically, but the CV was rejected on information design, hierarchy and photo integration. Technical PDF validity is not design-quality evidence.
+- **H6 remains TESTING with narrow positive evidence:** one local heading edit stayed technically scoped, but this does not validate the quality of the underlying package.
+- **H3 remains TESTING:** manual source reconciliation remains useful but automated research reliability is not established.
+- **H7 remains TESTING:** temporary-file retry experiments do not establish concurrent/durable production behavior.
+- **H0/H8 remain TESTING:** the failed package reinforces the need to evaluate visible intermediate work and repeatable process quality, but does not by itself prove the final custom implementation.
+
+G-003 is **FAIL**. Walking-skeleton approval remains HOLD. See `experiments/g003-failure-and-retest.md` for the corrected experiment design and F-026–F-030.
