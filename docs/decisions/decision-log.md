@@ -40,3 +40,12 @@ When one of these is decided, add a traceable decision/ADR with evidence rather 
 ## Validation checkpoint — 2026-09-09 (no new accepted decision)
 
 EXP-001–003 and E-005 retain D-001 through D-004. All architecture non-decisions remain open. G-001 awaits the user-owned value criterion for H0. The walking-skeleton gate is HOLD; synthetic feasibility is insufficient for a go decision. Proposed experiment criteria are not promoted to accepted requirements.
+
+## D-005 — Process quality and visibility are part of product value
+**Status:** Accepted user direction, 2026-09-09 (response to G-001)
+
+The user rejects holding document quality constant when assessing H0. The system must be evaluated on repeatable quality throughout connected subprocesses, structured data processing/sorting/evaluation, traceable relationships between variables, visible intermediate steps and targeted intervention. Application/CV outputs alone do not represent the product's value. GitHub remains the development workspace under D-002/D-003; its suitability as the user's operational interface is a separate question.
+
+The user reports existing prompt-based failures and believes GitHub + agents alone cannot meet the desired consistency and visibility. Record that as user experience and a product hypothesis, not an experimentally proven impossibility. No particular UI, rating formula, stack or architecture is chosen. No commercial/multi-user scope is inferred from the business analogy.
+
+G-001 is answered; no need to ask the user to justify the same preference again. This decision supersedes the pending-G-001 checkpoint above. Walking-skeleton approval still requires appropriate evidence.
