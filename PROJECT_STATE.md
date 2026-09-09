@@ -48,18 +48,18 @@ Not yet selected:
 - final model-provider set
 - runtime PII storage
 
-## Next gate
+## Current validation state
 
-Initial validation executed; see `docs/validation/experiments/initial-validation.md`.
+G-001 was answered under D-005: process quality, structured evaluation, traceability, visible steps and targeted intervention are part of value. Equal document quality is not assumed.
 
-- H2/H6: 11 synthetic graph checks passed; 8 historical-mutant rejections. Production behavior remains unvalidated.
-- H1: manual identity counterexamples recorded; architecture remains open.
-- H0/H8: partial synthetic repo/agent rehearsal only; no full application or user evaluation.
-- All F-001–F-022 now have explicit procedures and honest execution status in `docs/quality/validation-procedures.md`.
-- H3/H4/H5/H7 remain UNKNOWN. No hypothesis is PASS.
+The user authorized private historical inputs, then clarified that these supply data for **new agent-authored application/CV outputs**. EXP-008 now produces that new package; EXP-004–007 are supporting inspection/control experiments, not substitutes for creation.
 
-**G-001 answered by the user (2026-09-09):** the equal-quality assumption was rejected. Value includes consistently enforced quality across many connected subprocesses, structured processing/sorting/evaluation of data, traceability, visualized intermediate steps and targeted user intervention. These are user-owned goals, not proof that a custom implementation achieves them. See D-005 and the G-001 resolution in the experiment report.
+- Two new native one-page documents and editable sources created privately; no personal files in GitHub.
+- Actual local edit: zero changed pixels outside the intended heading; photo bytes and reference inputs unchanged.
+- 14 coupled synthetic checks passed; original 11 checks retained.
+- Real extraction disagreement and official-source inconsistency recorded with scope-aware treatment.
+- All H0–H8 remain TESTING; none PASS. No production runtime, independent reviewer or sustained quality claim.
 
-**Next validation:** evaluate coupled scenarios against these process criteria, including failure detection, affected dependencies, visible state and intervention. Measure quality and recoverability alongside coordination burden; do not reduce H0 to two attractive final documents or three prompt handoffs. Existing rating rules are referenced by the user but not specified in this repository; exact factors/weights remain unknown and must not be invented. Their absence blocks exact scoring tests only.
+**Current gate G-003:** user reviews the actual new drafts for authentic voice and document/photo presentation. Accepted parts can then be locked and corrections tested locally. The previous proposed sentence-only G-002 is superseded. Missing exact rating rules block exact scoring only.
 
-Walking-skeleton gate remains HOLD pending evidence. No broad implementation, stack or runtime PII decision has been made.
+See `docs/validation/experiments/reference-case-validation.md` for evidence and retest conditions. Walking skeleton remains HOLD; no broad implementation, final stack or runtime PII-storage choice.

@@ -34,3 +34,13 @@ Before Personal Live, these fixtures must be represented by executable tests or 
 ## Validation coverage
 
 See [explicit procedures and execution status](validation-procedures.md). Synthetic model evidence is marked separately from unexecuted product checks; no historical failure class is removed.
+
+## Failure classes discovered during validation
+
+| ID | Failure scenario | Required behavior |
+|---|---|---|
+| F-023 | Native CV text extracts in conflicting reading orders across readers. | Record extractor/ordering evidence; native text alone cannot certify semantic readability. |
+| F-024 | An authoritative program page contradicts its own heading or the precise job posting. | Preserve conflict and source scope; do not overwrite a well-supported field from an incidental conflicting paragraph. |
+| F-025 | An inherited document style adds an unintended title border. | Inspect actual native export and remove style residue before delivery. |
+
+These are validation-discovered classes, not retroactively claimed historical incidents. EXP-004/005/008 contain evidence.

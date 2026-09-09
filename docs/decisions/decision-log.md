@@ -49,3 +49,7 @@ The user rejects holding document quality constant when assessing H0. The system
 The user reports existing prompt-based failures and believes GitHub + agents alone cannot meet the desired consistency and visibility. Record that as user experience and a product hypothesis, not an experimentally proven impossibility. No particular UI, rating formula, stack or architecture is chosen. No commercial/multi-user scope is inferred from the business analogy.
 
 G-001 is answered; no need to ask the user to justify the same preference again. This decision supersedes the pending-G-001 checkpoint above. Walking-skeleton approval still requires appropriate evidence.
+
+## Validation scope clarification — 2026-09-09
+
+Current user instruction authorizes the supplied historical case as private data for generating the agent's own application/CV. Auditing the supplied final documents alone is insufficient. EXP-008 follows this clarification. No reference file is overwritten and no personal inputs/outputs are committed. G-003 is review of the new drafts; the proposed G-002 sentence-only gate is superseded. No architecture decision or walking-skeleton approval is added.

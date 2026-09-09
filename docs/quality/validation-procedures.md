@@ -45,3 +45,17 @@ All inputs below are synthetic unless later explicitly approved. `NOT RUN` means
 “Anschreiben und Lebenslauf können vorbereitet werden. Für die Abgabe fehlt noch der erforderliche Test. Deine nächste Aufgabe: Test abschließen. Abgeschickt wird erst durch dich.”
 
 This wording is a test stimulus, not final UI. One correct response supports only this scenario, not overall usability.
+
+## Execution update from EXP-004–008
+
+- F-010/011: version mismatch checks executed in synthetic model only.
+- F-012/013: coupled dependency changes executed with synthetic lineage.
+- F-014/023: both reference and newly generated PDFs actually rendered/extracted; new CV section order consistent in two readers. No general ATS pass.
+- F-015: source portrait bytes equal new DOCX embedded media; user's identity/framing preference pending. No independent original-photo comparison.
+- F-016: manual unsupported-expertise candidate rejection; automated semantic detection not proven.
+- F-018: actual new CV heading changed in a temporary DOCX, rerendered and compared; unchanged outside band, unchanged media. User content locks still pending.
+- F-019/020: lost-ack retry, stale revisions and incompatible schema exercised in temporary-file synthetic model; simultaneous-writer/durable production behavior not tested.
+- F-024: compare precise posting/title and conflicting ancillary paragraph; retain evidence, reconcile by scope. Executed manually on public sources.
+- F-025: inspect first native render for inherited title border, remove style residue and rerender. Executed on new outputs.
+
+Other NOT RUN statuses remain applicable. See E-006 and the current report; no broad production fixture pass is claimed.
