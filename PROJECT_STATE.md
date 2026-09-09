@@ -50,4 +50,14 @@ Not yet selected:
 
 ## Next gate
 
-Complete initial validation setup and begin H0–H8 experiments. Do not open broad implementation work yet.
+Initial validation executed; see `docs/validation/experiments/initial-validation.md`.
+
+- H2/H6: 11 synthetic graph checks passed; 8 historical-mutant rejections. Production behavior remains unvalidated.
+- H1: manual identity counterexamples recorded; architecture remains open.
+- H0/H8: partial synthetic repo/agent rehearsal only; no full application or user evaluation.
+- All F-001–F-022 now have explicit procedures and honest execution status in `docs/quality/validation-procedures.md`.
+- H3/H4/H5/H7 remain UNKNOWN. No hypothesis is PASS.
+
+**Current user decision gate G-001:** establish what residual coordination burden makes GitHub + agents insufficient, even at equal document quality. This personal value criterion cannot be inferred by an agent. After the answer, run one authorized high-fidelity case with personal artifacts outside GitHub; measure the relevant burden and quality failures.
+
+Walking-skeleton gate remains HOLD pending evidence. No broad implementation, stack or runtime PII decision has been made.

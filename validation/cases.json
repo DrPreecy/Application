@@ -1,0 +1,13 @@
+[
+  {"id":"research-pending-F001","kind":"readiness","graph":{"positioning":["research"],"other-case-cv":["other-truth"]},"input":["other-truth"],"expected":["other-case-cv"]},
+  {"id":"test-pending-F003","kind":"readiness","graph":{"application":["truth","research"],"cv":["truth"],"submission":["test","package","user-release"]},"input":["truth","research","package"],"expected":["application","cv"]},
+  {"id":"unknown-fact-F004-F005","kind":"readiness","graph":{"eligibility":["citizenship"],"cv":["career-truth"],"positioning":["research","career-truth"]},"input":["career-truth","research"],"expected":["cv","positioning"]},
+  {"id":"preferred-F006","kind":"readiness","graph":{"cv":["truth"],"positioning":["truth","research"]},"input":["truth","research"],"expected":["cv","positioning"]},
+  {"id":"idle-F021","kind":"readiness","graph":{},"input":[],"expected":[]},
+  {"id":"benefit-change-F013","kind":"invalidation","graph":{"fit":["benefit"],"positioning":["skill"],"application":["positioning","title"],"cv":["skill"],"package":["application","cv"]},"input":["benefit"],"expected":["fit"]},
+  {"id":"title-change-F013","kind":"invalidation","graph":{"fit":["benefit"],"positioning":["skill"],"application":["positioning","title"],"cv":["skill"],"package":["application","cv"]},"input":["title"],"expected":["application","package"]},
+  {"id":"skill-change-F012","kind":"invalidation","graph":{"fit":["benefit"],"positioning":["skill"],"application":["positioning","title"],"cv":["skill"],"package":["application","cv"]},"input":["skill"],"expected":["positioning","application","cv","package"]},
+  {"id":"positioning-change-F010","kind":"invalidation","graph":{"fit":["benefit"],"application":["positioning"],"cv":["positioning"],"package":["application","cv"]},"input":["positioning"],"expected":["application","cv","package"]},
+  {"id":"benefit-used-in-letter-F013","kind":"invalidation","graph":{"fit":["benefit"],"application":["benefit"],"cv":["skill"],"package":["application","cv"]},"input":["benefit"],"expected":["fit","application","package"]},
+  {"id":"no-change","kind":"invalidation","graph":{"cv":["skill"]},"input":[],"expected":[]}
+]

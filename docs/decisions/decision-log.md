@@ -36,3 +36,7 @@ The useful domain/process logic from the Dailies is preserved, but clocks are no
 - final model-provider routing implementation
 
 When one of these is decided, add a traceable decision/ADR with evidence rather than editing history retroactively.
+
+## Validation checkpoint — 2026-09-09 (no new accepted decision)
+
+EXP-001–003 and E-005 retain D-001 through D-004. All architecture non-decisions remain open. G-001 awaits the user-owned value criterion for H0. The walking-skeleton gate is HOLD; synthetic feasibility is insufficient for a go decision. Proposed experiment criteria are not promoted to accepted requirements.

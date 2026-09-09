@@ -47,3 +47,9 @@ Required tests and unknown user facts showed that global readiness caused unnece
 ## To add during validation
 
 Each experiment should link evidence here or in its own experiment record and include source/date/method/scope.
+
+## E-005 — Initial dependency experiment and bounded rehearsals
+**Date:** 2026-09-09
+**Type:** Synthetic executable model evidence plus explicitly labeled manual analysis
+
+[EXP-001–003](experiments/initial-validation.md) records method, observations, limits, no-decision and retest conditions. [Raw results](../../validation/results.json): 11/11 synthetic task-set checks; 8 historical-mutant rejections. EXP-002 is an identity counterexample review; EXP-003 is a partial hand-authored workflow rehearsal, not an empirical user-value trial. Same-agent authored and reviewed, not independent. No real applicant data or external job evidence used. Supports narrow H2/H6 feasibility only; does not validate the product or justify custom software.

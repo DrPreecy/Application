@@ -14,3 +14,7 @@
 | R-010 | External job/web content causes indirect prompt injection. | Medium | High | Treat external content as untrusted data; policy/tool boundary tests. |
 | R-011 | Daily automation consumes model budget without meaningful progress. | Medium | Medium | Idle is valid; cheap checks before expensive model work; meaningful-progress metrics. |
 | R-012 | Process/documentation becomes the product and delays usable software. | Medium | High | Minimal artifacts; phase exit criteria; vertical walking skeleton. |
+
+## Initial validation evidence — 2026-09-09
+
+E-005 supports narrow dependency feasibility but does not retire R-001, R-007 or other production risks. R-001/R-012: stop at user-value criterion G-001 before creating speculative infrastructure. R-003/R-009/R-010: no live applicant data used; authority and injection integration checks remain unexecuted. R-006: native document reliability remains UNKNOWN. See the initial experiment report for limitations.

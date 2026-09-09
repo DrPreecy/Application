@@ -30,3 +30,7 @@ These are permanent regression classes derived from real project failures and ex
 ## Rule
 
 Before Personal Live, these fixtures must be represented by executable tests or clearly documented manual/evaluation procedures appropriate to the failure class.
+
+## Validation coverage
+
+See [explicit procedures and execution status](validation-procedures.md). Synthetic model evidence is marked separately from unexecuted product checks; no historical failure class is removed.
