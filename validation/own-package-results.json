@@ -1,0 +1,24 @@
+{
+  "own-letter": {
+    "pages": 1,
+    "native_text": true,
+    "a4": true,
+    "out_of_bounds_spans": 0,
+    "fonts_embedded": true
+  },
+  "own-cv": {
+    "pages": 1,
+    "native_text": true,
+    "a4": true,
+    "out_of_bounds_spans": 0,
+    "fonts_embedded": true,
+    "both_extractors_preserve_section_order": true
+  },
+  "photo_asset_bytes_preserved": true,
+  "local_edit_preserves_media": true,
+  "local_edit_only_expected_docx_text": true,
+  "local_edit_pixel_changes_outside_heading_band": 0,
+  "local_edit_pixel_changes_inside_heading_band": 1879,
+  "all_four_reference_inputs_unchanged": true,
+  "scope": "own package native export and one scoped rendered edit; no universal reader or authenticity guarantee"
+}

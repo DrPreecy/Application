@@ -1,0 +1,194 @@
+{
+  "scope": "synthetic controls informed by private reference review; not production proof",
+  "checks": [
+    {
+      "id": "C01-coupled-hold",
+      "observed": [
+        "claim_evidence_missing",
+        "source_conflict",
+        "reading_order_review"
+      ],
+      "expected": [
+        "claim_evidence_missing",
+        "source_conflict",
+        "reading_order_review"
+      ],
+      "pass": true
+    },
+    {
+      "id": "C02-no-global-freeze",
+      "observed": [
+        "inspect_sources",
+        "inspect_documents",
+        "prepare_unaffected_sections"
+      ],
+      "expected": [
+        "inspect_sources",
+        "inspect_documents",
+        "prepare_unaffected_sections"
+      ],
+      "pass": true
+    },
+    {
+      "id": "C03-fit-not-eligibility",
+      "observed": [
+        "promising-synthetic",
+        "unknown",
+        false
+      ],
+      "expected": [
+        "promising-synthetic",
+        "unknown",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "id": "C04-local-evidence-fix-not-global-pass",
+      "observed": [
+        "source_conflict",
+        "reading_order_review"
+      ],
+      "expected": [
+        "source_conflict",
+        "reading_order_review"
+      ],
+      "pass": true
+    },
+    {
+      "id": "C05-local-language-change",
+      "observed": [
+        "cv-language",
+        "package"
+      ],
+      "expected": [
+        "cv-language",
+        "package"
+      ],
+      "pass": true
+    },
+    {
+      "id": "C06-coupled-upstream-change",
+      "observed": [
+        "cv-career",
+        "cv-language",
+        "letter-argument",
+        "package",
+        "positioning"
+      ],
+      "expected": [
+        "cv-career",
+        "cv-language",
+        "letter-argument",
+        "package",
+        "positioning"
+      ],
+      "pass": true
+    },
+    {
+      "id": "C07-review-not-submission",
+      "observed": [
+        true,
+        false
+      ],
+      "expected": [
+        true,
+        false
+      ],
+      "pass": true
+    },
+    {
+      "id": "C08-package-versions",
+      "observed": [
+        "positioning_mismatch",
+        "document_identity_mismatch"
+      ],
+      "expected": [
+        "positioning_mismatch",
+        "document_identity_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "id": "C09-retry-after-lost-ack",
+      "observed": [
+        "already_committed",
+        1,
+        2
+      ],
+      "expected": [
+        "already_committed",
+        1,
+        2
+      ],
+      "pass": true
+    },
+    {
+      "id": "C10-truth-and-lock-preserved",
+      "observed": [
+        {
+          "fact-A": "user-owned"
+        },
+        "approved synthetic text"
+      ],
+      "expected": [
+        {
+          "fact-A": "user-owned"
+        },
+        "approved synthetic text"
+      ],
+      "pass": true
+    },
+    {
+      "id": "C11-outdated-worker",
+      "observed": [
+        "stale_revision",
+        true
+      ],
+      "expected": [
+        "stale_revision",
+        true
+      ],
+      "pass": true
+    },
+    {
+      "id": "C12-unrelated-rewrite",
+      "observed": [
+        "outside_authorized_scope",
+        true
+      ],
+      "expected": [
+        "outside_authorized_scope",
+        true
+      ],
+      "pass": true
+    },
+    {
+      "id": "C13-reused-operation-new-payload",
+      "observed": [
+        "operation_payload_conflict",
+        true
+      ],
+      "expected": [
+        "operation_payload_conflict",
+        true
+      ],
+      "pass": true
+    },
+    {
+      "id": "C14-schema-stop",
+      "observed": "incompatible_schema",
+      "expected": "incompatible_schema",
+      "pass": true
+    }
+  ],
+  "passed": 14,
+  "total": 14,
+  "mutants_rejected": {
+    "ignore-package-holds": true,
+    "freeze-all-work": true,
+    "local-fix-clears-all": true,
+    "invalidate-everything": true,
+    "repeat-commit-on-retry": true
+  }
+}

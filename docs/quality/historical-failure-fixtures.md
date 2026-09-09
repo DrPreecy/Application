@@ -30,3 +30,26 @@ These are permanent regression classes derived from real project failures and ex
 ## Rule
 
 Before Personal Live, these fixtures must be represented by executable tests or clearly documented manual/evaluation procedures appropriate to the failure class.
+
+## Validation coverage
+
+See [explicit procedures and execution status](validation-procedures.md). Synthetic model evidence is marked separately from unexecuted product checks; no historical failure class is removed.
+
+## Failure classes discovered during validation
+
+| ID | Failure scenario | Required behavior |
+|---|---|---|
+| F-023 | Native CV text extracts in conflicting reading orders across readers. | Record extractor/ordering evidence; native text alone cannot certify semantic readability. |
+| F-024 | An authoritative program page contradicts its own heading or the precise job posting. | Preserve conflict and source scope; do not overwrite a well-supported field from an incidental conflicting paragraph. |
+| F-025 | An inherited document style adds an unintended title border. | Inspect actual native export and remove style residue before delivery. |
+| F-026 | Gold-reference leakage: an accepted final application is supplied as reference and the agent reproduces its structure/arguments instead of independently executing the intended process. | Separate process/voice evidence from hidden gold output; do not expose the final accepted artifact until after independent generation when the purpose is reconstruction validation. |
+| F-027 | Process bypass: a final artifact is generated without preserving the intermediate Source Lock, Evidence Map, Positioning, Application Concept, CV relevance decisions, design reasoning and QA state needed to explain how it was produced. | Required intermediate artifacts must exist and be reviewable before the final package can support a process-validation claim. |
+| F-028 | Design collapse: a technically native PDF is produced but the information-design system, hierarchy, grid, spacing and photo integration are materially weaker than established design requirements. | Technical PDF checks and design-quality checks are separate gates; native/selectable text alone cannot qualify a CV as successful. |
+| F-029 | Reference-as-template misuse: a voice/process reference is used as wording/layout source rather than as calibration evidence. | References must carry permitted-use metadata; voice references calibrate style/reasoning and may not silently become paragraph/layout templates. |
+| F-030 | Output-only optimization: the agent focuses on producing something that looks complete instead of validating whether upstream research, positioning, voice, design and dependency logic actually worked. | Validation success requires evidence from the required subprocesses, not only existence of final PDFs. |
+| F-031 | Profile compression loss: a richer applicant/motivation profile is reduced to a short generic summary, causing distinctive high-value signals to disappear before writing. | Maintain a coverage map from high-value profile evidence to positioning/content decisions; omission of a material signal requires an explicit reason rather than silent loss. |
+| F-032 | Template equivalence: after customization, most of the application could still be reused for another employer by replacing the company/program name and one or two details. | Run an employer-swap/template-baseline test; the application must contain load-bearing employer/opportunity reasoning that materially changes the narrative. |
+| F-033 | Design without semantic rationale: major visual decisions such as name placement, photo position, column structure or header hierarchy exist because they look acceptable rather than because they solve an information/reading problem. | Major design decisions must map to an information role, reading priority or document constraint and be explainable before rendering. |
+| F-034 | Narrative flattening: compression/restructuring removes the layered causal story and 'between-the-lines' evidence that made the candidate's path convincing, even though the remaining sentences are individually correct. | Preserve a narrative coverage/causality map and evaluate information density, transition logic and candidate distinctiveness before approving a shorter draft. |
+
+F-026–F-030 were discovered at G-003 after direct user review of EXP-008. F-031–F-034 were added after the subsequent controlled pre-version runner improved technical/visual quality but still received only a 5/10 user rating because profile richness, narrative specificity and semantic design rationale remained insufficient. These are validation-discovered classes, not retroactively claimed historical incidents.

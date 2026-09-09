@@ -1,0 +1,143 @@
+{
+  "scope": "synthetic dependency-model experiment only",
+  "results": [
+    {
+      "id": "research-pending-F001",
+      "expected": [
+        "other-case-cv"
+      ],
+      "actual": [
+        "other-case-cv"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": true
+    },
+    {
+      "id": "test-pending-F003",
+      "expected": [
+        "application",
+        "cv"
+      ],
+      "actual": [
+        "application",
+        "cv"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": true
+    },
+    {
+      "id": "unknown-fact-F004-F005",
+      "expected": [
+        "cv",
+        "positioning"
+      ],
+      "actual": [
+        "cv",
+        "positioning"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": true
+    },
+    {
+      "id": "preferred-F006",
+      "expected": [
+        "cv",
+        "positioning"
+      ],
+      "actual": [
+        "cv",
+        "positioning"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": false
+    },
+    {
+      "id": "idle-F021",
+      "expected": [],
+      "actual": [],
+      "passed": true,
+      "historical_mutant_rejected": false
+    },
+    {
+      "id": "benefit-change-F013",
+      "expected": [
+        "fit"
+      ],
+      "actual": [
+        "fit"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": true
+    },
+    {
+      "id": "title-change-F013",
+      "expected": [
+        "application",
+        "package"
+      ],
+      "actual": [
+        "application",
+        "package"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": true
+    },
+    {
+      "id": "skill-change-F012",
+      "expected": [
+        "application",
+        "cv",
+        "package",
+        "positioning"
+      ],
+      "actual": [
+        "application",
+        "cv",
+        "package",
+        "positioning"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": true
+    },
+    {
+      "id": "positioning-change-F010",
+      "expected": [
+        "application",
+        "cv",
+        "package"
+      ],
+      "actual": [
+        "application",
+        "cv",
+        "package"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": true
+    },
+    {
+      "id": "benefit-used-in-letter-F013",
+      "expected": [
+        "application",
+        "fit",
+        "package"
+      ],
+      "actual": [
+        "application",
+        "fit",
+        "package"
+      ],
+      "passed": true,
+      "historical_mutant_rejected": true
+    },
+    {
+      "id": "no-change",
+      "expected": [],
+      "actual": [],
+      "passed": true,
+      "historical_mutant_rejected": false
+    }
+  ],
+  "passed": 11,
+  "total": 11,
+  "historical_mutants_rejected": 8
+}

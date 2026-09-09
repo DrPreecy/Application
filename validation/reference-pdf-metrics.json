@@ -1,0 +1,32 @@
+[
+  {
+    "artifact": "reference-letter",
+    "pages": [
+      {
+        "page": 1,
+        "a4_within_one_point": true,
+        "native_text_present": true,
+        "pymupdf_characters": 4666,
+        "pdfplumber_characters": 4632,
+        "text_spans_outside_page": 0,
+        "image_count": 0,
+        "all_referenced_fonts_embedded": true
+      }
+    ]
+  },
+  {
+    "artifact": "reference-cv",
+    "pages": [
+      {
+        "page": 1,
+        "a4_within_one_point": true,
+        "native_text_present": true,
+        "pymupdf_characters": 1759,
+        "pdfplumber_characters": 1758,
+        "text_spans_outside_page": 0,
+        "image_count": 1,
+        "all_referenced_fonts_embedded": true
+      }
+    ]
+  }
+]
